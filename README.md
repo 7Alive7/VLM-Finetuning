@@ -17,3 +17,6 @@
 
 # 依赖安装
 <pre lang="md">pip install -r requirements.txt </pre>
+
+# 运行
+<pre lang="md">python Pretrain.py </pre>
