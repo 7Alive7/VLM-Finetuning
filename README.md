@@ -15,5 +15,5 @@
 * **Image data**：[liuhaotian/LLaVA-CC3M-Pretrain-595K](https://huggingface.co/datasets/liuhaotian/LLaVA-CC3M-Pretrain-595K/tree/main)
 *  **Text data**: [LinkSoul/Chinese-LLaVA-Vision-Instructions](https://huggingface.co/datasets/LinkSoul/Chinese-LLaVA-Vision-Instructions/tree/main)
 
-
-
+# 依赖安装
+<pre lang="md">pip install -r requirements.txt </pre>
