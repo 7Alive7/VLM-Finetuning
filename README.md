@@ -14,7 +14,7 @@
 ## Pre-train
 * **Image data**：[liuhaotian/LLaVA-CC3M-Pretrain-595K](https://huggingface.co/datasets/liuhaotian/LLaVA-CC3M-Pretrain-595K/tree/main)
 *  **Text data**: [LinkSoul/Chinese-LLaVA-Vision-Instructions](https://huggingface.co/datasets/LinkSoul/Chinese-LLaVA-Vision-Instructions/tree/main)
-*  ## SFT
+## SFT
 *  **Image data**：[jingyaogong/minimind-v_dataset/sft_images.zip]([https://huggingface.co/datasets/liuhaotian/LLaVA-CC3M-Pretrain-595K/tree/main](https://hf-mirror.com/datasets/jingyaogong/minimind-v_dataset/blob/main/sft_images.zip))
 *  **Text data**: [jingyaogong/minimind-v_dataset/sft_data.jsonl]([https://huggingface.co/datasets/LinkSoul/Chinese-LLaVA-Vision-Instructions/tree/main](https://hf-mirror.com/datasets/jingyaogong/minimind-v_dataset/blob/main/sft_data.jsonl))
 
