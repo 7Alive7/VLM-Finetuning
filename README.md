@@ -12,14 +12,18 @@
 
 # 数据来源
 ## Pre-train
-* **Image data**：[liuhaotian/LLaVA-CC3M-Pretrain-595K](https://huggingface.co/datasets/liuhaotian/LLaVA-CC3M-Pretrain-595K/tree/main)
+* **Image data**: [liuhaotian/LLaVA-CC3M-Pretrain-595K](https://huggingface.co/datasets/liuhaotian/LLaVA-CC3M-Pretrain-595K/tree/main)
 *  **Text data**: [LinkSoul/Chinese-LLaVA-Vision-Instructions](https://huggingface.co/datasets/LinkSoul/Chinese-LLaVA-Vision-Instructions/tree/main)
 ## SFT
-*  **Image data**：[jingyaogong/minimind-v_dataset/sft_images.zip]([https://huggingface.co/datasets/liuhaotian/LLaVA-CC3M-Pretrain-595K/tree/main](https://hf-mirror.com/datasets/jingyaogong/minimind-v_dataset/blob/main/sft_images.zip))
-*  **Text data**: [jingyaogong/minimind-v_dataset/sft_data.jsonl]([https://huggingface.co/datasets/LinkSoul/Chinese-LLaVA-Vision-Instructions/tree/main](https://hf-mirror.com/datasets/jingyaogong/minimind-v_dataset/blob/main/sft_data.jsonl))
+*  **Image data**: [jingyaogong/minimind-v_dataset/sft_images.zip](https://hf-mirror.com/datasets/jingyaogong/minimind-v_dataset/blob/main/sft_images.zip)
+*  **Text data**: [jingyaogong/minimind-v_dataset/sft_data.jsonl](https://hf-mirror.com/datasets/jingyaogong/minimind-v_dataset/blob/main/sft_data.jsonl)
 
 # 依赖安装
 <pre lang="md">pip install -r requirements.txt </pre>
 
-# 运行
+# 训练
 <pre lang="md">python Pretrain.py </pre>
+<pre lang="md">python sft.py </pre>
+
+# 测试
+<pre lang="md">python test_multi_turn_cmd.py </pre>
