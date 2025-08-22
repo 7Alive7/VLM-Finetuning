@@ -25,5 +25,8 @@
 <pre lang="md">python Pretrain.py </pre>
 <pre lang="md">python sft.py </pre>
 
-# 测试
+# 命令行推理
 <pre lang="md">python test_multi_turn_cmd.py </pre>
+
+# Web端推理
+<pre lang="md">python gradio_vlm.py </pre>
