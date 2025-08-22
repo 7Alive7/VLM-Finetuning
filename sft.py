@@ -7,7 +7,7 @@ import shutil
 from transformers import AutoTokenizer, AutoConfig, AutoProcessor, AutoModelForCausalLM, Trainer, TrainingArguments
 import torch
 from torch.utils.data import random_split
-from train_with_attention_mask import VLM
+from Pretrain import VLM
 from config import VLMConfig
 import swanlab
 from PIL import Image
@@ -182,3 +182,4 @@ if __name__ == '__main__':
     trainer.train(resume_from_checkpoint=False)
     trainer.save_model(output_dir=output_dir)
     trainer.save_state()
+
